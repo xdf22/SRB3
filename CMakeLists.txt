@@ -16,7 +16,7 @@ string(REGEX MATCH "[0-9]+\\.[0-9.]+" SRB2_VERSION ${SRB2_VERSION})
 # DO NOT CHANGE THIS SRB2 STRING! Some variable names depend on this string.
 # Version change is fine.
 project(SRB2
-	VERSION ${SRB2_VERSION}
+	VERSION SARBY3
 	LANGUAGES C CXX)
 
 ##### PACKAGE CONFIGURATION #####
