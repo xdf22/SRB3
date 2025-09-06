@@ -6498,7 +6498,7 @@ mobjinfo_t mobjinfo[NUMMOBJTYPES] =
 	},
 
 	{           // MT_BLACKEGGMAN_MISSILE
-		-1,             // doomednum
+		5000,             // doomednum
 		S_BLACKEGG_MISSILE, // spawnstate
 		1000,           // spawnhealth
 		S_NULL,         // seestate
@@ -6510,15 +6510,15 @@ mobjinfo_t mobjinfo[NUMMOBJTYPES] =
 		sfx_None,       // painsound
 		S_NULL,         // meleestate
 		S_NULL,         // missilestate
-		S_BOSSEXPLODE,  // deathstate
+		S_BLACKEGG_MISSILE,  // deathstate
 		S_NULL,         // xdeathstate
-		sfx_bexpld,     // deathsound
-		10*FRACUNIT,    // speed
+		sfx_None,     // deathsound
+		20*FRACUNIT,    // speed
 		24*FRACUNIT,    // radius
 		24*FRACUNIT,    // height
 		0,              // display offset
 		0,              // mass
-		1,              // damage
+		0,              // damage
 		sfx_None,       // activesound
 		MF_NOBLOCKMAP|MF_MISSILE|MF_NOGRAVITY, // flags
 		S_NULL          // raisestate
