@@ -1,5 +1,4 @@
-# Sonic Robo Blast 3
-Revenge of the Robo Blasters
+# Sonic Robo Blast 3 <br> Revenge of the Robo Blasters
 [![latest release](https://badgen.net/github/release/STJr/SRB2/stable)](https://github.com/STJr/SRB2/releases/latest)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/399d4hcw9yy7hg2y?svg=true)](https://ci.appveyor.com/project/STJr/srb2)
