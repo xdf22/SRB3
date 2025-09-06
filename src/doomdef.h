@@ -220,7 +220,7 @@ extern char logfilename[1024];
 // and should not be changed unless you have merged changes between versions of SRB2
 // (such as 2.0.4 to 2.0.5, etc) into your working copy.
 // Will always resemble the versionstring, 205 = 2.0.5, 210 = 2.1, etc.
-#define CODEBASE 220
+#define CODEBASE 230
 
 // To version config.cfg, MAJOREXECVERSION is set equal to MODVERSION automatically.
 // Increment MINOREXECVERSION whenever a config change is needed that does not correspond
